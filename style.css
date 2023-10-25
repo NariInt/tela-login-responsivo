@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body, html{
-    background-color: rgb(69, 68, 68);
+    background-image: linear-gradient(to top, #13F2DC, #025959);
     height: 100vh;
     width: 100vh;
 
@@ -21,17 +21,16 @@ section#login{
     width: 250px;
     height: 500px;
     color: black;
-    border-top-left-radius: 25px ;
-    border-bottom-right-radius: 25px;
+    border-radius: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.096) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.662) ;
 }
 section#login > #img{
-    background: black  url(imagens/cat-1507600_1920.jpg) no-repeat center center;
+    background: black  url(imagens/owl-7156953_1280.jpg) no-repeat center center;
     background-size: cover;
     height: 200px;
 }
