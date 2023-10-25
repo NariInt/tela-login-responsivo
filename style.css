@@ -27,7 +27,7 @@ section#login{
     left: 50%;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.662) ;
-    
+
     transform: translate(-50%, -50%);
     transition: width .3s, heiht .3s;
     transition-timing-function: ease;
@@ -36,7 +36,7 @@ section#login > #img{
     display: block;
     background: black  url(imagens/owl-7156953_1280.jpg) no-repeat center center;
     background-size: cover;
-    height: 200px;
+    height: 170px;
 }
 #login > #form{
     padding: 10px;
